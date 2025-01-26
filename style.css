@@ -13,11 +13,10 @@ body {
     font-family:"Roboto", sans-serif;
     font-size: var(--font-size);
 background-color: var(--color-bg-white);
-margin: 5px;
 }
 
 .container { margin-inline: auto;
-width: min(100% - 20px 20px, 1100px);
+width: min(100% - 40px, 1100px);
 }
 
 .header {
@@ -104,7 +103,7 @@ line-height: 37.5px;}
         display: flex; 
         justify-content:space-evenly;
 flex-wrap: wrap;
-gap: 45px;
+gap: 30px;
     
     }
    
@@ -127,14 +126,14 @@ gap: 45px;
 .projects__item-title 
 { color: #FFFFFF; 
     line-height: 24.61px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: bold;
 
 }
 .projects__item-subtitle 
 {  color: #FFFFFF; 
     line-height: 24.61px;
-    font-size: 21px; 
+    font-size: 20px; 
 
 }
 
@@ -196,36 +195,6 @@ color: #FFFFFF;
 color: #FFFFFF;}
 
 
-                                                   @media (max-width: 590px)
-{
-body {
-    font-size: 10px;
-}
-
-.header__title
-{ 
-    font-size: 30px;  
-}
-
-.about-me__h2 {
-    font-size: 30px;
-   
-}
-.about-video__h3
-{
-    font-size: 30px ; }
-
-    .footer__name {
-       
-         font-size: 16px; 
-   ;
-    }
-    .footer__copyright{  
-        font-size: 8px; 
-    }
-}
-
-
 
                                                    @media (max-width: 375px)
 {
@@ -238,6 +207,15 @@ body {
     padding-block:20px 40px; 
    
 }
+
+.navbar__list 
+{display: flex;
+flex-wrap: wrap;
+gap: 32px;
+text-transform: uppercase;
+
+}
+
 
 .header__title{
     
